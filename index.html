@@ -8,6 +8,8 @@
     <title>Panda Shopping</title>
     <!-- Bootstrap Style sheets -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/dee6a75ba4.js" crossorigin="anonymous"></script>
     <!-- Google Fonts -->
@@ -48,7 +50,7 @@
         <!-- Nav Section End -->
 
         <!-- Image Slider Start -->
-        <section class="container mt-5 rounded-3" style="background-color: #FEEAE9;" id="home">
+        <section class="container mt-5 rounded-3 shadow-sm" style="background-color: #FEEAE9;" id="home">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -60,7 +62,7 @@
                                     front of funky world.
                                 </p>
                                 <h1 class="text-warning opacity-75">$430</h1>
-                                <button class="btn btn-warning text-white p-2">Buy Now <i
+                                <button class="btn btn-warning text-white p-2 ps-4 pe-4">Buy Now <i
                                         class="fas ps-2 fa-long-arrow-alt-right"></i></button>
                             </div>
                             <div class="col-lg-5">
@@ -77,7 +79,7 @@
                                     of fake sports.
                                 </p>
                                 <h1 class="text-warning opacity-75">$650</h1>
-                                <button class="btn btn-warning text-white p-2">Buy Now <i
+                                <button class="btn btn-warning text-white p-2 ps-4 pe-4">Buy Now <i
                                         class="fas ps-2 fa-long-arrow-alt-right"></i></button>
                             </div>
                             <div class="col-lg-5">
@@ -94,7 +96,7 @@
                                     tv.
                                 </p>
                                 <h1 class="text-warning opacity-75">$1200</h1>
-                                <button class="btn btn-warning text-white p-2">Buy Now <i
+                                <button class="btn btn-warning text-white p-2 ps-4 pe-4">Buy Now <i
                                         class="fas ps-2 fa-long-arrow-alt-right"></i></button>
                             </div>
                             <div class="col-lg-5">
@@ -158,9 +160,9 @@
                                 lead-in to
                                 additional content. This content is a little bit longer.</p>
                         </div>
-                        <div class="m-3">
-                            <button class="btn btn-warning text-white">
-                                Buy Now
+                        <div class="m-3 d-flex justify-content-center">
+                            <button class="panda-btn-buy-now">
+                                Buy Now <i class="fas ps-2 fa-long-arrow-alt-right"></i>
                             </button>
                         </div>
                     </div>
@@ -173,9 +175,9 @@
                             <p class="card-text">This card has supporting text below as a natural lead-in to
                                 additionalcontent.</p>
                         </div>
-                        <div class="m-3">
-                            <button class="btn btn-warning text-white">
-                                Buy Now
+                        <div class="m-3 d-flex justify-content-center">
+                            <button class="panda-btn-buy-now">
+                                Buy Now <i class="fas ps-2 fa-long-arrow-alt-right"></i>
                             </button>
                         </div>
                     </div>
@@ -190,9 +192,9 @@
                                 additional content. This card has even longer content than the first to show that
                                 equalheight action.</p>
                         </div>
-                        <div class="m-3">
-                            <button class="btn btn btn-warning text-white">
-                                Buy Now
+                        <div class="m-3 d-flex justify-content-center">
+                            <button class="panda-btn-buy-now">
+                                Buy Now <i class="fas ps-2 fa-long-arrow-alt-right"></i>
                             </button>
                         </div>
                     </div>
@@ -214,9 +216,9 @@
                                 lead-in to
                                 additional content. This content is a little bit longer.</p>
                         </div>
-                        <div class="m-3">
-                            <button class="btn btn-warning text-white">
-                                Buy Now
+                        <div class="m-3 d-flex justify-content-center">
+                            <button class="panda-btn-buy-now">
+                                Buy Now <i class="fas ps-2 fa-long-arrow-alt-right"></i>
                             </button>
                         </div>
                     </div>
@@ -229,9 +231,9 @@
                             <p class="card-text">This card has supporting text below as a natural lead-in to
                                 additionalcontent.</p>
                         </div>
-                        <div class="m-3">
-                            <button class="btn btn btn-warning text-white">
-                                Buy Now
+                        <div class="m-3 d-flex justify-content-center">
+                            <button class="panda-btn-buy-now">
+                                Buy Now <i class="fas ps-2 fa-long-arrow-alt-right"></i>
                             </button>
                         </div>
                     </div>
@@ -246,9 +248,9 @@
                                 additional content. This card has even longer content than the first to show that
                                 equalheight action.</p>
                         </div>
-                        <div class="m-3">
-                            <button class="btn btn btn-warning text-white">
-                                Buy Now
+                        <div class="m-3 d-flex justify-content-center">
+                            <button class="panda-btn-buy-now">
+                                Buy Now <i class="fas ps-2 fa-long-arrow-alt-right"></i>
                             </button>
                         </div>
                     </div>
@@ -259,13 +261,13 @@
 
         <!-- Subscribe Section Start -->
         <section style="height: 400px; background-color: #FEEAE9;" id="subscribe"
-            class="container d-flex justify-content-center align-items-center rounded-3 mb-5">
+            class="container d-flex justify-content-center align-items-center rounded-3 mb-5 shadow-sm">
             <div>
                 <div>
                     <h1>LET'S STAY IN TOUCH</h1>
                     <p class="text-muted">Get updates on sales, specials and more</p>
                 </div>
-                <div><input type="email" class="form-control" id="exampleFormControlInput1"
+                <div><input type="email" class="form-control p-2" id="exampleFormControlInput1"
                         placeholder="Enter Your Email">
                     <button type="submit" class="btn btn-danger mt-1">Send</button>
                 </div>
@@ -275,8 +277,8 @@
     </main>
     <footer>
         <p class="text-center"><small>©2022. Panda E-Commerce. All rights reserved. <a
-                    class="link-warning text-decoration-none" href="https://hossainahmad.com/">Hossain
-                    Ahmad</a></small>
+                    class="link-warning text-decoration-none" href="https://hossainahmad.com/">
+                    Hossain Ahmad</a></small>
         </p>
     </footer>
     <!-- Bootstrap Script -->
